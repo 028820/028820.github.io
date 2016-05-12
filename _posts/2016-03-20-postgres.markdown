@@ -1,0 +1,64 @@
+---
+layout: post
+title:  "用Postgres替换MySQL"
+date:   2016-03-20 13:24:18 +0800
+categories: blog
+
+---
+在互联网公司中MySQL毫无疑问是当下最流行的开源免费数据库。但它却不是一个理想的选择
+<br/>
+以下几个显著的问题无法解决。导致你常常需要“优化”Schema和SQL。
+
+- 因为InnoDB物理设计存储问题，DDL锁表，DDL不支持事务。
+- SQL优化不好,尤其是子查询。
+- 索引类型单一，索引利用率低，不支持定制索引，不支持条件索引。
+- 分析函数有限，不支持Window Function。
+- 执行计划提供的信息很有限。
+- 不支持WITH，SQL难移结构化，复杂SQL难以维护。
+- 不支持RETURNING
+- ....等等
+
+当然这些问题并不是说不能解决，但他会让你去“优化”你的SQL。
+但这会给你带来很多额外的工作，走很多弯路，活生生的愚公移山呐！
+
+这时候你说了，人家阿里，腾讯还在用MySQL呢。我表示呵呵哒。谁给你说阿里用的东西就是好的？
+
+- 在阿里RDS上，MySQL的这些问题依然存在。这是阿里已经深度优化定制过的哦。
+- 没有多少公司有能力，有精力去修改MySQL源码。你愿意将奥拓改装成超跑吗？
+
+吐槽了这么多MySQL，还是来介绍下PostgreSQL吧。
+
+PostgreSQL是一款面向对象的关系型数据库。等等,他咋还面向对象了呢？
+他除没有上面提到的MySQL的问题，还很先进。数据类型很多。
+支持JSON的COLUMN ，并且支持查询，索引。是不是有点MongoDB的感觉了喃
+支持自定义COLUMN数据类型。
+最早源于Berkeley由迈克尔·斯通布雷克(Michael Stonebraker)主导开发。
+
+Michael Stonebraker是谁？为什么要提他？
+他是2014年[图灵奖得主](https://en.wikipedia.org/wiki/Turing_Award){:target="_blank"}，主要贡献为现代数据库概念与实践。
+图灵在数据库领域总共有4位得主，分别是
+
+1973    查理士·巴克曼(Charles W. Bachman)         贡献：最初数据库技术
+1981    埃德加·科德(Edgar F. Codd)                贡献：关系模型
+1998    詹姆斯·格雷(Jim Gray)                     贡献：事务处理及实现
+2014    迈克尔·斯通布雷克(Michael Stonebraker)     贡献：现代数据库高级特性
+
+又有人说了，MySQL使用人多，PostgreSQL使用人少，成本高很难招。
+你都有精力去定制数据库了，有时间去“优化”你的MySQL
+为什么不能花点时间学学[PostgreSQL](http://www.postgresql.org){:target="_blank"}喃。
+他的文档做的非常，很全面。
+
+
+
+
+
+
+
+
+
+
+
+[postgres-vs-mysql]:https://www.zhihu.com/question/20010554
+[jekyll-docs]: http://jekyllrb.com/docs/home
+[jekyll-gh]:   https://github.com/jekyll/jekyll
+[jekyll-talk]: https://talk.jekyllrb.com/
