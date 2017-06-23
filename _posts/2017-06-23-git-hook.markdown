@@ -1,0 +1,21 @@
+---
+layout: post
+title:  Git Hook & Java CheckStyle
+date:   2017-06-23
+categories: blog
+
+---
+
+为了让代码有较好的可读性，公司会制定一套代码规范，在Java中通常是由Maven或Gradle插件在Build时对代码进行校验生成报表校验。这种方式会扫描全部代码效率非常低。因为我们只需要对本次提交的少量代码进行校验并不需要对以往已经校验代码二次校验，所以我们需要定制校验方式，[Chekstyle](http://checkstyle.sourceforge.net/cmdline.html#Download_and_Run){:target="_blank"}通过命令行形式，可以对指定部分Java代码扫描进行校验，并生成简易XML文件。
+
+
+有了规范校验工具还远远不够，因为日常开发中，开发小伙伴可能会因为疏忽或者其他原因，漏掉代码格式校验这个步骤，就将代码提交到服务器。为了避免这个问题，最好的方式是在提交代码之前，自动校验代码是否符合规范，若不符合规范则不允许提交。并明确指出错误出处。
+
+
+目前我们使用的是Git作为版本管理，
+Git支持一系列[Git-Hooks](http://githooks.com){:target="_blank"}在执行Git命令时，允许执行一些脚本。所以我们在commit之前做代码做校验，如果本次提交代码不符合规范，则中断提交。使用<b>pre-commit-hook</b>正好可以达到我们的目的，并且这是在客户端本地校验的，不会增加Git服务器负担。
+
+
+<b>pre-commit</b>结合<b>Checkstyle</b>虽然可以禁止提交不符规范的代码，但仍差一步，由于Checkstyle生成的XML文件不可读，还需要通过XSLT将XML重新渲染成可读的html，当然也可以通过IDE Checkstyle插件找到错误出处。
+
+这里提供全套简易实现供你使用，希望对你有所帮助[Java-Checkstyle](https://github.com/028820/java-checkstyle){:target="_blank"}。这里虽然介绍了Java的代码校验，同理也可以制定其他编程语言的代码规范限制。
