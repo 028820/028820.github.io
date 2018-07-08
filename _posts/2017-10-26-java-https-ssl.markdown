@@ -47,4 +47,4 @@ categories: blog
         session = event.getSession();
     }
 ```
-然而回调实现仅仅是记录SSL证书秘钥相关东西，其实并不需要通过新建线程的方式去Call。并且我们判断任何基于SSL握手回调实现，不会消耗太长时间，也不应该消耗太长时间。所以我们决定将[sun.security.ssl.SSLSocketImpl](http://hg.openjdk.java.net/jdk8u/jdk8u60/jdk/file/tip/src/share/classes/sun/security/ssl/SSLSocketImpl.java#l1084){:target="_blank"}源码修改成线程池处理回调消息，并支持线程数和默认参数，打到我们Java Docker镜像里，升级全部Java运行环境解决掉这个大坑。（后续因为担心风险，让内网服务器走http协议这种方案修复 - 2017.11.01）
+然而回调实现仅仅是记录SSL证书秘钥相关东西，其实并不需要通过新建线程的方式去Call。并且我们判断任何基于SSL握手回调实现，不会消耗太长时间，也不应该消耗太长时间。所以我们决定将[sun.security.ssl.SSLSocketImpl](http://hg.openjdk.java.net/jdk8u/jdk8u60/jdk/file/tip/src/share/classes/sun/security/ssl/SSLSocketImpl.java#l1084){:target="_blank"}源码修改成线程池处理回调消息，并支持线程数和默认参数，打到我们Java Docker镜像里，升级全部Java运行环境解决掉这个大坑。（后续因为担心风险，让内网服务器通讯走http协议，这种方案修复 - 2017.11.01）
