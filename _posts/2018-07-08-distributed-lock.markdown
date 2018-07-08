@@ -35,7 +35,7 @@ categories: blog
 | 获取锁必须是原子性操作(Atomic) | Redis [SETNX](https://redis.io/commands/setnx){:target="_blank"} 配合过期失效 [SET NX PX](https://redis.io/commands/set){:target="_blank"} |
 
 
-### 画时序图- 整理核心流程
+### 画时序图 - 整理核心流程
 
 ![](/img/distributed-lock/dlock.svg)
 
