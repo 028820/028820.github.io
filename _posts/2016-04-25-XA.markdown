@@ -6,6 +6,9 @@ categories: blog
 
 ---
 
+[分布式事务Keynote分享](https://raw.githubusercontent.com/028820/028820.github.io/master/files/Transaction.key){:target="_blank"} 2018年8月更新
+
+
 我曾经在分布式事务探索了很久，找到了不少理论和方案。但是他们都或多或少都会存在一些问题，于是就有了这篇博文。
 <p/>
 
