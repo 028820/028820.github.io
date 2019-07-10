@@ -3,6 +3,7 @@ layout: post
 title:  技术选型与落地方案 - 分布式锁
 date:   2018-07-08 14：32：32 +0800
 categories: blog
+keywords: 分布式锁,Redis,Lock,Distributed Lock
 
 ---
 

@@ -3,6 +3,7 @@ layout: post
 title:  Git Hook & Java CheckStyle
 date:   2017-06-23
 categories: blog
+keywords: Checkstyle,Java CheckStyle,代码检查,代码校验插件,Hook,Git,代码校验钩子
 
 ---
 

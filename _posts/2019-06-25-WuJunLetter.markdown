@@ -3,6 +3,7 @@ layout: post
 title:  吴军信息论课程回信
 date:   2019-06-25 22：00：00 +0800
 categories: blog
+keywords: 吴军,信息论,项目管理,架构设计
 
 ---
 

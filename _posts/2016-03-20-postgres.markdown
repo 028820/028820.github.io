@@ -3,6 +3,7 @@ layout: post
 title:  "用Postgres替换MySQL"
 date:   2016-03-20 13:24:18 +0800
 categories: blog
+keywords: MySQL,Postgres,PgSQL,数据库
 
 ---
 互联网公司中MySQL毫无疑问是当下最流行的开源免费数据库。但它却不是一个理想的选择<br/>

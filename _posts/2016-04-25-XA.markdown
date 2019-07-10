@@ -3,6 +3,7 @@ layout: post
 title:  "分布式事务解决方案与落地"
 date:   2016-04-25 20：30：23 +0800
 categories: blog
+keywords: 分布式事务,Saga,Saga Pattern,2PC,两阶段提交,XA
 
 ---
 <!--
