@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "分布式事务解决方案"
+title:  "分布式事务解决方案与落地"
 date:   2016-04-25 20：30：23 +0800
 categories: blog
 
@@ -54,8 +54,7 @@ Saga Pattern是分布式事务的一个**解决方案**，并不是一种技术�
 
 **事件补发**又会带来另一问题，如:TCP网络延时超过**预期**的Timeout时长，导致误判**网络错误**，触发事件补发后，导致业务系统收到2次事件(如:商品库存扣2次)。所业务系统需要保证**同一个事件**有且仅处理一次，术语称为**幂等**。
 
-只要业务能接受短期不一致(时间长短与事件补发和系统处理耗时有关)。**Saga Pattern**就可行。
-
+只要业务能接受短期不一致(时间长短与事件补发和系统处理耗时有关)，**Saga Pattern**就可行。由于减少了同步请求链路，并且是**事件驱动**、**异步化**设计，系统整体性能会提升不少。
 
 <H2><B>关键点总结</B></H2>
 
@@ -133,4 +132,8 @@ public class PaymentEventListener implement PaymentEvent {
 // 这样即可达成优雅落地的目标，对研发人员无负担，易使用。
 
 {% endhighlight %}
+
+**相关资料**
+
+[Saga Pattern](https://microservices.io/patterns/data/saga.html){:target="_blank"}
 
