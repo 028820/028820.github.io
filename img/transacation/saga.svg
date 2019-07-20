@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xl="http://www.w3.org/1999/xlink" version="1.1" xmlns:dc="http://purl.org/dc/elements/1.1/" viewBox="-830 477 1643 175" width="1643" height="175">
+  <defs>
+    <filter id="Shadow" filterUnits="userSpaceOnUse" x="-830" y="477">
+      <feGaussianBlur in="SourceAlpha" result="blur" stdDeviation="1.308"/>
+      <feOffset in="blur" result="offset" dx="0" dy="2"/>
+      <feFlood flood-color="black" flood-opacity=".5" result="flood"/>
+      <feComposite in="flood" in2="offset" operator="in"/>
+    </filter>
+    <font-face font-family="PingFang SC" font-size="23" panose-1="2 11 8 0 0 0 0 0 0 0" units-per-em="1000" underline-position="-150" underline-thickness="80" slope="0" x-height="600" cap-height="860" ascent="1060.0021" descent="-340.0007" font-weight="600">
+      <font-face-src>
+        <font-face-name name="PingFangSC-Semibold"/>
+      </font-face-src>
+    </font-face>
+    <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="FilledArrow_Marker" stroke-linejoin="miter" stroke-miterlimit="10" viewBox="-9 -4 10 8" markerWidth="10" markerHeight="8" color="black">
+      <g>
+        <path d="M -8 0 L 0 3 L 0 -3 Z" fill="currentColor" stroke="currentColor" stroke-width="1"/>
+      </g>
+    </marker>
+    <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="FilledArrow_Marker_2" stroke-linejoin="miter" stroke-miterlimit="10" viewBox="-1 -4 10 8" markerWidth="10" markerHeight="8" color="black">
+      <g>
+        <path d="M 8 0 L 0 -3 L 0 3 Z" fill="currentColor" stroke="currentColor" stroke-width="1"/>
+      </g>
+    </marker>
+    <filter id="Shadow_2" filterUnits="userSpaceOnUse" x="-830" y="477">
+      <feGaussianBlur in="SourceAlpha" result="blur" stdDeviation="1.744"/>
+      <feOffset in="blur" result="offset" dx="1" dy="2"/>
+      <feFlood flood-color="black" flood-opacity=".85" result="flood"/>
+      <feComposite in="flood" in2="offset" operator="in" result="color"/>
+      <feMerge>
+        <feMergeNode in="color"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <font-face font-family="PingFang SC" font-size="23" panose-1="2 11 4 0 0 0 0 0 0 0" units-per-em="1000" underline-position="-150" underline-thickness="58" slope="0" x-height="600" cap-height="860" ascent="1060.0021" descent="-340.0007" font-weight="400">
+      <font-face-src>
+        <font-face-name name="PingFangSC-Regular"/>
+      </font-face-src>
+    </font-face>
+  </defs>
+  <metadata> Produced by OmniGraffle 7.10.2 
+    <dc:date>2019-07-20 08:19:34 +0000</dc:date>
+  </metadata>
+  <g id="Canvas_1" stroke-opacity="1" stroke-dasharray="none" stroke="none" fill="none" fill-opacity="1">
+    <title>Saga</title>
+    <rect fill="white" x="-830" y="477" width="1643" height="175"/>
+    <g id="Canvas_1: 图层 1">
+      <title>图层 1</title>
+      <g id="Graphic_18_shadow" filter="url(#Shadow)">
+        <path d="M -432.75774 526.92964 L -282.48684 526.92964 C -264.71193 526.92964 -250.28593 542.95854 -250.28593 562.7084 C -250.28593 582.4583 -264.71193 598.4872 -282.48684 598.4872 L -432.75774 598.4872 C -450.53264 598.4872 -464.95865 582.4583 -464.95865 562.7084 C -464.95865 542.95854 -450.53264 526.92964 -432.75774 526.92964 Z" fill="white"/>
+        <path d="M -432.75774 526.92964 L -282.48684 526.92964 C -264.71193 526.92964 -250.28593 542.95854 -250.28593 562.7084 C -250.28593 582.4583 -264.71193 598.4872 -282.48684 598.4872 L -432.75774 598.4872 C -450.53264 598.4872 -464.95865 582.4583 -464.95865 562.7084 C -464.95865 542.95854 -450.53264 526.92964 -432.75774 526.92964 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_29_shadow" filter="url(#Shadow)">
+        <path d="M 263.12766 526.92964 L 413.39857 526.92964 C 431.17347 526.92964 445.59947 542.95854 445.59947 562.7084 C 445.59947 582.4583 431.17347 598.4872 413.39857 598.4872 L 263.12766 598.4872 C 245.35276 598.4872 230.92675 582.4583 230.92675 562.7084 C 230.92675 542.95854 245.35276 526.92964 263.12766 526.92964 Z" fill="white"/>
+        <path d="M 263.12766 526.92964 L 413.39857 526.92964 C 431.17347 526.92964 445.59947 542.95854 445.59947 562.7084 C 445.59947 582.4583 431.17347 598.4872 413.39857 598.4872 L 263.12766 598.4872 C 245.35276 598.4872 230.92675 582.4583 230.92675 562.7084 C 230.92675 542.95854 245.35276 526.92964 263.12766 526.92964 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_18">
+        <path d="M -432.75774 526.92964 L -282.48684 526.92964 C -264.71193 526.92964 -250.28593 542.95854 -250.28593 562.7084 C -250.28593 582.4583 -264.71193 598.4872 -282.48684 598.4872 L -432.75774 598.4872 C -450.53264 598.4872 -464.95865 582.4583 -464.95865 562.7084 C -464.95865 542.95854 -450.53264 526.92964 -432.75774 526.92964 Z" fill="white"/>
+        <path d="M -432.75774 526.92964 L -282.48684 526.92964 C -264.71193 526.92964 -250.28593 542.95854 -250.28593 562.7084 C -250.28593 582.4583 -264.71193 598.4872 -282.48684 598.4872 L -432.75774 598.4872 C -450.53264 598.4872 -464.95865 582.4583 -464.95865 562.7084 C -464.95865 542.95854 -450.53264 526.92964 -432.75774 526.92964 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(-438.4914 546.2084)" fill="black">
+          <tspan font-family="PingFang SC" font-size="23" font-weight="600" fill="black" x="11.869089" y="24">支付成功事件</tspan>
+        </text>
+      </g>
+      <g id="Line_22">
+        <line x1="-474.85865" y1="562.7084" x2="-585.2618" y2="562.7084" marker-start="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="miter" stroke-dasharray="4.0,4.0" stroke-width="1"/>
+      </g>
+      <g id="Line_23">
+        <line x1="-250.28593" y1="562.7084" x2="-139.88276" y2="562.7084" marker-end="url(#FilledArrow_Marker_2)" stroke="black" stroke-linecap="round" stroke-linejoin="miter" stroke-dasharray="4.0,4.0" stroke-width="1"/>
+      </g>
+      <g id="Graphic_29">
+        <path d="M 263.12766 526.92964 L 413.39857 526.92964 C 431.17347 526.92964 445.59947 542.95854 445.59947 562.7084 C 445.59947 582.4583 431.17347 598.4872 413.39857 598.4872 L 263.12766 598.4872 C 245.35276 598.4872 230.92675 582.4583 230.92675 562.7084 C 230.92675 542.95854 245.35276 526.92964 263.12766 526.92964 Z" fill="white"/>
+        <path d="M 263.12766 526.92964 L 413.39857 526.92964 C 431.17347 526.92964 445.59947 542.95854 445.59947 562.7084 C 445.59947 582.4583 431.17347 598.4872 413.39857 598.4872 L 263.12766 598.4872 C 245.35276 598.4872 230.92675 582.4583 230.92675 562.7084 C 230.92675 542.95854 245.35276 526.92964 263.12766 526.92964 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(257.39402 546.2084)" fill="black">
+          <tspan font-family="PingFang SC" font-size="23" font-weight="600" fill="black" x="11.869089" y="24">订单支付事件</tspan>
+        </text>
+      </g>
+      <g id="Line_30">
+        <line x1="221.02675" y1="562.7084" x2="-129.98276" y2="562.7084" marker-start="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="miter" stroke-dasharray="4.0,4.0" stroke-width="1"/>
+      </g>
+      <g id="Line_32">
+        <line x1="556.00264" y1="562.7084" x2="445.59947" y2="562.7084" marker-start="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="miter" stroke-dasharray="4.0,4.0" stroke-width="1"/>
+      </g>
+      <g id="Group_46">
+        <g id="Group_43">
+          <g id="Graphic_16" filter="url(#Shadow_2)">
+            <rect x="-825.8682" y="480" width="240.60634" height="165.41686" fill="#feffff"/>
+            <rect x="-825.8682" y="480" width="240.60634" height="165.41686" stroke="#1e1e1e" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          </g>
+          <g id="Graphic_35">
+            <text transform="translate(-806.1859 486.61155)" fill="black">
+              <tspan font-family="PingFang SC" font-size="23" font-weight="400" fill="black" x="0" y="24">本地事务</tspan>
+            </text>
+          </g>
+        </g>
+        <g id="Graphic_33">
+          <rect x="-776.995" y="544.0361" width="142.86001" height="75.18948" stroke="#1e1e1e" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          <text transform="translate(-771.995 565.1308)" fill="black">
+            <tspan font-family="PingFang SC" font-size="23" font-weight="400" fill="black" x="43.430007" y="24">支付</tspan>
+          </text>
+        </g>
+      </g>
+      <g id="Group_45">
+        <g id="Group_42">
+          <g id="Graphic_15" filter="url(#Shadow_2)">
+            <rect x="-129.98276" y="480" width="240.60634" height="165.41686" fill="#feffff"/>
+            <rect x="-129.98276" y="480" width="240.60634" height="165.41686" stroke="#1e1e1e" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          </g>
+          <g id="Graphic_36">
+            <text transform="translate(-110.30046 486.61155)" fill="black">
+              <tspan font-family="PingFang SC" font-size="23" font-weight="400" fill="black" x="0" y="24">本地事务</tspan>
+            </text>
+          </g>
+        </g>
+        <g id="Graphic_39">
+          <rect x="-81.10959" y="544.0361" width="142.86001" height="75.18948" stroke="#1e1e1e" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          <text transform="translate(-76.109595 565.1308)" fill="black">
+            <tspan font-family="PingFang SC" font-size="23" font-weight="400" fill="black" x="43.430007" y="24">订单</tspan>
+          </text>
+        </g>
+      </g>
+      <g id="Group_44">
+        <g id="Group_41">
+          <g id="Graphic_24" filter="url(#Shadow_2)">
+            <rect x="565.90264" y="480" width="240.60634" height="165.41686" fill="#feffff"/>
+            <rect x="565.90264" y="480" width="240.60634" height="165.41686" stroke="#1e1e1e" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          </g>
+          <g id="Graphic_37">
+            <text transform="translate(585.58494 486.61155)" fill="black">
+              <tspan font-family="PingFang SC" font-size="23" font-weight="400" fill="black" x="0" y="24">本地事务</tspan>
+            </text>
+          </g>
+        </g>
+        <g id="Graphic_40">
+          <rect x="614.7758" y="544.0361" width="142.86001" height="75.18948" stroke="#1e1e1e" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          <text transform="translate(619.7758 565.1308)" fill="black">
+            <tspan font-family="PingFang SC" font-size="23" font-weight="400" fill="black" x="43.430007" y="24">商品</tspan>
+          </text>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

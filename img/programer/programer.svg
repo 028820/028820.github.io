@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xl="http://www.w3.org/1999/xlink" version="1.1" xmlns:dc="http://purl.org/dc/elements/1.1/" viewBox="-339.5 301.5 1160.5 144" width="1160.5" height="144">
+  <defs>
+    <font-face font-family="PingFang SC" font-size="16" panose-1="2 11 4 0 0 0 0 0 0 0" units-per-em="1000" underline-position="-150" underline-thickness="58" slope="0" x-height="600" cap-height="860" ascent="1060.0021" descent="-340.0007" font-weight="400">
+      <font-face-src>
+        <font-face-name name="PingFangSC-Regular"/>
+      </font-face-src>
+    </font-face>
+    <filter id="Shadow" filterUnits="userSpaceOnUse" x="-339.5" y="301.5">
+      <feGaussianBlur in="SourceAlpha" result="blur" stdDeviation="1.744"/>
+      <feOffset in="blur" result="offset" dx="1" dy="2"/>
+      <feFlood flood-color="black" flood-opacity=".85" result="flood"/>
+      <feComposite in="flood" in2="offset" operator="in" result="color"/>
+      <feMerge>
+        <feMergeNode in="color"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <metadata> Produced by OmniGraffle 7.10.2 
+    <dc:date>2019-07-12 09:47:22 +0000</dc:date>
+  </metadata>
+  <g id="Canvas_2" stroke-opacity="1" stroke-dasharray="none" stroke="none" fill="none" fill-opacity="1">
+    <title>awesome</title>
+    <rect fill="white" x="-339.5" y="301.5" width="1160.5" height="144"/>
+    <g id="Canvas_2: Layer 1">
+      <title>Layer 1</title>
+      <g id="Graphic_9">
+        <path d="M -339 302 L 820.5 302 L 820.5 445 L -339 445 Z" stroke="#1e1e1e" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="2.0,2.0" stroke-width="1"/>
+      </g>
+      <g id="Graphic_8">
+        <text transform="translate(-321 311)" fill="#ac3f38">
+          <tspan font-family="PingFang SC" font-size="16" font-weight="400" fill="#ac3f38" x="0" y="17">优秀工程师特征</tspan>
+        </text>
+      </g>
+      <g id="Graphic_7" filter="url(#Shadow)">
+        <rect x="-300.5" y="357.5" width="136.5" height="63.5" fill="#feffff"/>
+        <rect x="-300.5" y="357.5" width="136.5" height="63.5" stroke="#1e1e1e" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(-295.5 377.75)" fill="black">
+          <tspan font-family="PingFang SC" font-size="16" font-weight="400" fill="black" x="39.25" y="17">创造力</tspan>
+        </text>
+      </g>
+      <g id="Graphic_6" filter="url(#Shadow)">
+        <rect x="-64" y="357.5" width="136.5" height="63.5" fill="#feffff"/>
+        <rect x="-64" y="357.5" width="136.5" height="63.5" stroke="#1e1e1e" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(-59 377.75)" fill="black">
+          <tspan font-family="PingFang SC" font-size="16" font-weight="400" fill="black" x="39.25" y="17">影响力</tspan>
+        </text>
+      </g>
+      <g id="Graphic_5" filter="url(#Shadow)">
+        <rect x="645.5" y="357.5" width="136.5" height="63.5" fill="#feffff"/>
+        <rect x="645.5" y="357.5" width="136.5" height="63.5" stroke="#1e1e1e" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(650.5 377.75)" fill="black">
+          <tspan font-family="PingFang SC" font-size="16" font-weight="400" fill="black" x="31.25" y="17">自我驱动</tspan>
+        </text>
+      </g>
+      <g id="Graphic_4" filter="url(#Shadow)">
+        <rect x="409" y="357.5" width="136.5" height="63.5" fill="#feffff"/>
+        <rect x="409" y="357.5" width="136.5" height="63.5" stroke="#1e1e1e" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(414 377.75)" fill="black">
+          <tspan font-family="PingFang SC" font-size="16" font-weight="400" fill="black" x="23.25" y="17">跨界多元化</tspan>
+        </text>
+      </g>
+      <g id="Graphic_3" filter="url(#Shadow)">
+        <rect x="172.5" y="357.5" width="136.5" height="63.5" fill="#feffff"/>
+        <rect x="172.5" y="357.5" width="136.5" height="63.5" stroke="#1e1e1e" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(177.5 377.75)" fill="black">
+          <tspan font-family="PingFang SC" font-size="16" font-weight="400" fill="black" x="47.25" y="17">品味</tspan>
+        </text>
+      </g>
+    </g>
+  </g>
+</svg>
