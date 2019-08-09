@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "分布式事务解决方案与落地"
+title:  "分布式事务解决方案与优雅落地"
 date:   2016-04-25 20：30：23 +0800
 categories: blog
 keywords: 分布式事务,Saga,Saga Pattern,2PC,两阶段提交,XA
@@ -90,6 +90,7 @@ public interface PaymentEvent{
 public class PaymentServiceImpl implement PaymentService {
     
     //自定义注解，Spring容器加载时，通过代理实现。class名、method名组合成队列名(框架完成)
+    //参考 org.springframework.beans.factory.config.BeanPostProcessor
     @Producer
     private PaymentEvent paymentEvent;
    
@@ -113,6 +114,7 @@ public class PaymentServiceImpl implement PaymentService {
 
 //3. 订单服务接收消费支付成功事件 (代码所属订单系统)
 //自定义注解，Spring容器加载时，根据class名、method名组合成队列名订阅消息(框架完成)
+//参考 org.springframework.beans.factory.config.BeanPostProcessor
 @Consumer
 public class PaymentEventListener implement PaymentEvent {
 	
