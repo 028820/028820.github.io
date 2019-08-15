@@ -9,7 +9,7 @@ keywords: 分布式事务,Saga,Saga Pattern,2PC,两阶段提交,XA
 <!--
 [分布式事务Keynote分享](https://raw.githubusercontent.com/028820/028820.github.io/master/files/Transaction.key){:target="_blank"} 2018年8月更新-->
 
-由于网上讨论的分布式事务方案是有带误导性质的，于是我有想法写这篇博文。从常见的**2阶段提交**和**TCC**的不足分析，在到博文提供解决方案**Saga Pattern**和**优雅落地**。
+由于网上讨论的分布式事务方案是有带误导性质的，于是我有想法写这篇博文。从常见的**2阶段提交**和**TCC**的不足分析，再到博文中提供的解决方案**Saga Pattern**与**优雅落地**。
 
 <H1><B>2阶段提交</B></H1>
 
